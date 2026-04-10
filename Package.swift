@@ -9,14 +9,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "TXLiteAVSDK_Player_SwiftPM",
+    name: "Player_SwiftPM",
     platforms: [
         .iOS(.v9)
     ],
     products: [
         .library(
-            name: "TXLiteAVSDK_Player_SwiftPM",
-            targets: ["TXLiteAVSDK_Player_SwiftPM"]
+            name: "Player_SwiftPM",
+            targets: ["Player_SwiftPM"]
         ),
         .library(
             name: "TXLiteAVSDK_ReplayKitExt",
@@ -50,7 +50,7 @@ let package = Package(
         // ==================== Wrapper Target ====================
 
         .target(
-            name: "TXLiteAVSDK_Player_SwiftPM",
+            name: "Player_SwiftPM",
             dependencies: [
                 "TXLiteAVSDK_Player",
                 "TXFFmpeg",
