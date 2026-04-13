@@ -17,11 +17,7 @@ let package = Package(
         .library(
             name: "Player_SwiftPM",
             targets: ["Player_SwiftPM"]
-        ),
-        .library(
-            name: "TXLiteAVSDK_ReplayKitExt",
-            targets: ["TXLiteAVSDK_ReplayKitExt"]
-        ),
+        )
     ],
     targets: [
         // ==================== Binary Targets ====================
@@ -41,12 +37,6 @@ let package = Package(
             url: "https://liteav.sdk.qcloud.com/download/spm/13.2/player/13.2.0.20652/TXSoundTouch.xcframework.zip",
             checksum: "25cb5716e2966f028ceac4e41b7fec2bafbc8163d9e16dca19190d9e9b155ef1"
         ),
-        .binaryTarget(
-            name: "TXLiteAVSDK_ReplayKitExt",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.2/player/13.2.0.20652/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
-            checksum: "bce376f4002d0c249616f8535331c04cd57b9da7f21fad9a9782ebfdf930ed29"
-        ),
-
         // ==================== Wrapper Target ====================
 
         .target(
