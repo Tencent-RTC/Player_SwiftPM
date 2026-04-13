@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
 // Version: 13.2.20652
@@ -11,7 +11,7 @@ import PackageDescription
 let package = Package(
     name: "Player_SwiftPM",
     platforms: [
-        .iOS(.v9)
+        .iOS(.v12)
     ],
     products: [
         .library(
