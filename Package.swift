@@ -47,7 +47,7 @@ let package = Package(
                 "TXSoundTouch"
             ],
             path: "Sources/PlayerWrapper",
-            publicHeadersPath: nil,
+            publicHeadersPath: "",
             linkerSettings: [
                 .linkedFramework("SystemConfiguration"),
                 .linkedFramework("CoreTelephony"),
