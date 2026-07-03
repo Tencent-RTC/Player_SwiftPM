@@ -1,7 +1,7 @@
 // swift-tools-version:5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
-// Version: 13.4.0.21062
+// Version: 13.4.0.21067
 // Summary: TXLiteAVSDK_Player
 // Description: TXLiteAVSDK Player is a playback component that enables you to integrate powerful video playback capabilities—comparable to
 // those of Tencent Video—using just a few lines of code.
@@ -24,18 +24,18 @@ let package = Package(
 
         .binaryTarget(
             name: "TXLiteAVSDK_Player",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/player/13.4.0.21062/TXLiteAVSDK_Player.xcframework.zip",
-            checksum: "14e64498a2f0a9d739c189f0368d5ae5c8fb1c00abde88512e7df82f873b3b1f"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/player/13.4.0.21067/TXLiteAVSDK_Player.xcframework.zip",
+            checksum: "6d5d341d5ab7cae52264e5918aa09719e5077a94f3517d382c5ee4340845a75e"
         ),
         .binaryTarget(
             name: "TXFFmpeg",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/player/13.4.0.21062/TXFFmpeg.xcframework.zip",
-            checksum: "a5020a62c864a16332ddca80abc882e333a5babee098fb2be1a84e1e509de75f"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/player/13.4.0.21067/TXFFmpeg.xcframework.zip",
+            checksum: "277d91ab024b80d97f6682f0a0acaf983c832b686c3002b580ade02b86898f3d"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/player/13.4.0.21062/TXSoundTouch.xcframework.zip",
-            checksum: "274db7a4c342fc7b58b509973acd044846d494ed73198b7d1e7d91f32d3f15b4"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/player/13.4.0.21067/TXSoundTouch.xcframework.zip",
+            checksum: "7ea681dc8dce3926a34f27cf272942bd1f5c3a1bc38a5115373eb5db0267586d"
         ),
         // ==================== Wrapper Target ====================
 
